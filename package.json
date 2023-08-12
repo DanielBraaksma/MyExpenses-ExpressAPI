@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:watch": "tsc --watch"
+    "build:watch": "tsc --watch",
+    "start": "nodes dist/index.js"
   },
   "author": "",
   "license": "ISC",
